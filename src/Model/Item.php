@@ -192,4 +192,22 @@ class Item
     {
         $this->updatedAt = $updatedAt;
     }
+
+    /**
+     * @return int
+     */
+    public function getOrderId(): int
+    {
+        return $this->orderId;
+    }
+
+    /**
+     * @param int $orderId
+     */
+    public function setOrderId(int $orderId)
+    {
+        $this->orderId = $orderId;
+    }
+
+
 }
