@@ -1,0 +1,19 @@
+{
+    "name": "ibrahim/exercice",
+    "description": "this is a test for Made people",
+    "authors": [
+        {
+            "name": "'ibrahimhizeoui'",
+            "email": "ibrahimhizeoui@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {"MadePeople\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"MadePeople\\Tests\\": "tests"}
+    }
+}
