@@ -1,6 +1,5 @@
 <?php
 include('connect.php');
-
 ?>
 
 <!DOCTYPE html>
@@ -19,21 +18,7 @@ include('connect.php');
     </style>
 </head>
 <body>
-<div id="left">
-    <div class="menu" >
-        <img src="image/logo.png">
-        <nav class="">
-            <ul>
-                <li class="active" ><a id="home" href="index.php">Home</a></li>
-                <li><a href="#" id="decimal-factor">Set decimal factor</a></li>
-            </ul>
-        </nav>
-        <div style="clear:both;"></div>
-        <a href="#" class="import">Enable</a>
-
-    </div>
-
-</div>
+<?php include 'menu.php';?>
 <div id="right">
     <div class="content">
         <div id="all" class="all col">
